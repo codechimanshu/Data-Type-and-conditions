@@ -1,0 +1,7 @@
+x=int(input())
+y=(x//365)
+m=((x%365)//30)
+d=((x%365)%30)
+print(y,"years")
+print(m,"months")
+print(d,"days")
