@@ -1,0 +1,23 @@
+a,op,b,e,x=input().split()
+a=int(a)
+b=int(b)
+x=int(x)
+if(op=="+"):
+    s=a+b
+    if(s==x):
+        print("Yes")
+    else:
+        print(s)
+elif(op=="-"):
+    s=a-b
+    if(s==x):
+        print("Yes")
+    else:
+        print(s)
+else:
+    s=a*b
+    if(s==x):
+        print("Yes")
+    else:
+        print(s)
+
