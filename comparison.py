@@ -1,0 +1,18 @@
+a,op,b=input().split()
+a=int(a)
+b=int(b)
+if(op==">"):
+    if(a>b):
+        print("Right")
+    else:
+        print("Wrong")
+elif(op=="<"):
+    if(a<b):
+        print("Right")
+    else:
+        print("Wrong")
+else:
+    if(a==b):
+        print("Right")
+    else:
+        print("Wrong")
